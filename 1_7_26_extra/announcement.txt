@@ -1,0 +1,7 @@
+A quick reminder, we are going tohave Quiz 2 in our Wednesday class.
+Date & Time: 02/11/2026 (Wednesday), duringClass, for 20 minutes.
+Total Marks: 10 marks. (10questions will be asked)
+Textbook Chapters:
+Characters and Strings (Chapter-4), Loops (Chapter-5), Functions (Chapter-6), Arrays (Chapter 7), Vectors(12.6, 12.7), Pointer Basics (Chapter 11.2)
+Lectures:
+04 - 10
