@@ -1,0 +1,1 @@
+use template<typename T> before every template function prototype.
