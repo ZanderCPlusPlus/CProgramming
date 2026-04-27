@@ -1,0 +1,25 @@
+#include "Matrix.hpp"
+#include <iostream>
+#include <stdexcept>
+
+int main(void){
+    int r, c;
+    std::cout << "Enter rows and columns: ";
+    std::cin >> r >> c;
+
+    try{
+        Matrix<int>(r,c).print();
+    }
+    catch(const std::logic_error& ex){
+        std::cout << ex.what() << std::endl;
+    }
+
+    try{
+        Matrix<int> mat = Matrix<int>::load("input.txt");
+        mat.print();
+    }
+    catch(const std::exception& ex){ // catches the logic error, bad argument, or any other type that's derived from this base class.
+        std::cout << ex.what() << std::endl;
+    }
+    return 0;
+}
