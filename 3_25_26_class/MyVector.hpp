@@ -30,6 +30,6 @@ private:
     void allocateMemory(int memory_size);
 };
 
-#include "MyVector.tpp" // must include this so that the compiler sees both the .hpp and the .cpp implementation file.
+#include "MyVector.cpp" // must include this so that the compiler sees both the .hpp and the .cpp implementation file.
 
 #endif

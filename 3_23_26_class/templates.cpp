@@ -37,6 +37,8 @@ int main(void){
     //TODO test findMax with different vectors.
     std::vector<int> v {1,2,34,4};
     std::cout << findMax(v) << std::endl;
+    std::vector<std::string> v2 {"green","Bean","Machine","That's clean", "green"};
+    std::cout << findMax(v2) << std::endl;
     return 0;
 }
 template <typename T>
@@ -66,9 +68,9 @@ T findMax(const std::vector<T>& v){
     if(v.empty()){
         throw std::string("findMax: empty vector");
     }
-    T max = 0;
-    for(int i = 0; i < v.size()-1; i++){
-        if(v[i] > v[i+1]){
+    T max = v[0];
+    for(int i = 1; i < v.size(); i++){
+        if(v[i] > v[i-1]){
             max=v[i];
         }
     }

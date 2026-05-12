@@ -1,0 +1,10 @@
+No arg constructor for 0x5b4e0f8682b0
+Bye!!!
+Bye!!!
+Argument constructor for 0x5b4e0f8692e0
+Destructor for 0x5b4e0f8682b0
+Destructor for 0x5b4e0f8692e0
+Argument constructor for 0x7fff875eb240 // this is for hi3
+Copy constructor for 0x7fff875eb250 // this calls our copy coinstructor that we made and avoids the segmentation fault that arised from the shallow copy previously.
+Destructor for 0x7fff875eb250 // this is for hi3
+Destructor for 0x7fff875eb240 // this is for hi4
